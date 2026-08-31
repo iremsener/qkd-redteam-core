@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qkd-redteam-core"
+version = "0.1.0"
+description = "A pure-Python core engine for QKD simulation and quantum attack vectors."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "Irem Sener" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Topic :: Security :: Cryptography",
+]
+dependencies = [
+    "numpy>=1.20.0",
+]
+
+[tool.setuptools]
+packages = ["qkd_redteam_core"]

@@ -1,0 +1,13 @@
+# Python derleme artıkları
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dağıtım ve Paketleme artıkları
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# VS Code kendi ayarları
+.vscode/
