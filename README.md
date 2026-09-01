@@ -151,6 +151,6 @@ print(f"Decoy Guard Alarm Status: {decoy_report['pns_stealth_detected']}")
 
 ## ⚖️ License & Copyright
 
-This project is officially licensed under the **Apache License 2.0**—providing embedded patent protection and corporate utility. 
+This project is officially licensed under the **Apache License 2.0**—providing embedded patent protection and corporate utility.. 
 
 Developed and Maintained by **Irem Sener**.
